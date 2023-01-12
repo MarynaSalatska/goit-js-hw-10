@@ -11,7 +11,7 @@ const infoItem = document.querySelector('.country-info');
 inputItem.addEventListener('input', debounce(onInput, DEBOUNCE_DELAY));
 
 function onInput() {
-  if (inputItem.value.trim() === '') {
+  if (!inputItem.value.trim()) {
     infoItem.innerHTML = '';
     listItem.innerHTML = '';
     return;
