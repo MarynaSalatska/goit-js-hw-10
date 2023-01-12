@@ -18,3 +18,20 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+.flag-header,
+.flag-text {
+  display: inline-block;
+}
+
+.text {
+  font-weight: 700;
+}
+
+.country-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.flag-text {
+  font-size: 24px;
+}

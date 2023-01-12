@@ -5,7 +5,7 @@ import './css/styles.css';
 
 const DEBOUNCE_DELAY = 300;
 
-const inputItem = document.querySelector('input[id="search-box"]');
+const inputItem = document.querySelector('#search-box');
 const listItem = document.querySelector('.country-list');
 const infoItem = document.querySelector('.country-info');
 inputItem.addEventListener('input', debounce(onInput, DEBOUNCE_DELAY));
